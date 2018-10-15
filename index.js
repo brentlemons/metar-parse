@@ -1,7 +1,10 @@
 'use strict'
 
-export function metarParser(metarString) {
+module.exports = metarParser;
+
+function metarParser(metarString) {
 
   console.log('-> ' + metarString);
 
 }
+

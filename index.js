@@ -8,7 +8,7 @@ function metarParser(metarString) {
 
     let m = new Metar(metarString);
 
-    console.log('-> ' + m);
+    console.log('-> ' + JSON.stringify(m));
 
 }
 

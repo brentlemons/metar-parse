@@ -8,6 +8,7 @@ function metarParser(metarString) {
 
     let m = new Metar(metarString);
 
+    console.log('=> ' + m.parseTime('150200Z'));
     console.log('-> ' + JSON.stringify(m));
 
 }

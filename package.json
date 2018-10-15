@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brentlemons/metar-parser/issues"
   },
-  "homepage": "https://github.com/brentlemons/metar-parser#readme"
+  "homepage": "https://github.com/brentlemons/metar-parser#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
 }

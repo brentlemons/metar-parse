@@ -1,0 +1,19 @@
+{
+  "name": "metar-parser",
+  "version": "0.0.1",
+  "description": "A javascript module to parse WMO METAR observations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentlemons/metar-parser.git"
+  },
+  "author": "Brent Lemons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentlemons/metar-parser/issues"
+  },
+  "homepage": "https://github.com/brentlemons/metar-parser#readme"
+}

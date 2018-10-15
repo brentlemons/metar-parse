@@ -1,10 +1,14 @@
 'use strict'
 
+var metar = require('./lib/metar');
+
 module.exports = metarParser;
 
 function metarParser(metarString) {
 
-  console.log('-> ' + metarString);
+    var m = new metar(metarString);
+
+    console.log('-> ' + m);
 
 }
 

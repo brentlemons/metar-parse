@@ -6,7 +6,7 @@ module.exports = metarParser;
 
 function metarParser(metarString) {
 
-    var m = new Metar(metarString);
+    let m = new Metar(metarString);
 
     console.log('-> ' + m);
 

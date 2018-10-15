@@ -1,6 +1,6 @@
 'use strict'
 
-var Metar = require('./lib/metar');
+const Metar = require('./lib/metar');
 
 module.exports = metarParser;
 

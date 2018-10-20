@@ -6,10 +6,10 @@ module.exports = metarParser;
 
 function metarParser(metarString) {
 
-    let m = new Metar(metarString);
+    return new Metar(metarString);
 
     // console.log('=> ' + m.parseTimestamp('150200Z').toISOString());
-    console.log('-> ' + JSON.stringify(m));
+    // console.log('-> ' + JSON.stringify(m));
 
 }
 
